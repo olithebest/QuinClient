@@ -77,7 +77,7 @@ function writeMessageToFirebase()
     // console.log(messageInTextBox);
 
     firebase.database().ref("Teams").set(dictionary);
-    // firebase.database().ref("MessageTest/myMessage").set(messageInTextBox);
+    firebase.database().ref("MessageTest/myMessage").set(messageInTextBox);
     // firebase.database().ref("Teams/Denver").set(DEN)
     // firebase.database().ref("Teams/Cleveland").set(CLE)
     // firebase.database().ref("Teams/Carolina").set(CAR)
