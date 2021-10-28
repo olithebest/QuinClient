@@ -20,6 +20,7 @@ function writeMessageToFirebase()
     let messageInTextBox = document.getElementById("messageForFirebase").value;
     let dictionary = {};
 
+    dictionary["Name"] = document.getElementById("messageForFirebase").value;
     dictionary["Denver"] = document.getElementById("DEN").value;
     dictionary["Cleveland"] = document.getElementById("CLE").value;
     dictionary["Carolina"] = document.getElementById("CAR").value;
